@@ -70,14 +70,14 @@ function App() {
   
   return (
     <Fragment>
-      <span className="top"></span>
+      
       <Header 
       titulo="PixaReact"
       paginaactual={paginaactual}
       guardarBusqueda={guardarBusqueda}
       primeraPagina={primeraPagina}
       />
-
+        <span className="top"></span>
         <div className="container-fluid ">
 
             {(paginaactual === 1 ) ? (
