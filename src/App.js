@@ -7,7 +7,7 @@ import Header from './components/Header';
 //multimedia
 import videoMp4 from './img/Nebula.mp4';
 import videoWebm from './img/Nebula.webm';
-import poster from './img/universo.jpg';
+import poster from './img/Nebula.jpg';
 
 function App() {
 
