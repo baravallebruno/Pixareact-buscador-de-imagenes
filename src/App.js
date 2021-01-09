@@ -38,7 +38,7 @@ function App() {
       guardarTotalPaginas(calcularTotalPaginas);
 
       const barraTop = document.querySelector('.top');
-      barraTop.scrollIntoView({ behavior: 'smooth' })
+      barraTop.scrollIntoView(true , { behavior: 'smooth' })
 
     }
     consultarApi();
@@ -77,9 +77,9 @@ function App() {
       guardarBusqueda={guardarBusqueda}
       primeraPagina={primeraPagina}
       />
-        <span className="top"></span>
+       
         <div className="container-fluid ">
-
+        
             {(paginaactual === 1 ) ? (
 
               <div className="jumbotron mb-0 contenido__video">
@@ -92,7 +92,7 @@ function App() {
                       <div className="text-hero">
                       <h1 className="text-center mb-4 text-white">Todo un universo de imágenes GRATIS para descargar.</h1>
                       <p className="lead text-center mb-5 text-white">
-                        Buscador creado en React, conectado a la API de Pixabay  - por Bruno Baravalle -
+                        Buscador creado en React, conectado a la API de Pixabay.
                       </p>
                       </div>
 
@@ -104,9 +104,9 @@ function App() {
 
             ) : null}
 
-              
+               
               <div className={(paginaactual !== 1 ) ? `justify-content-center img-content${noCabecera}` : 'justify-content-center img-content' } >
-
+              <span className="top"></span>
                 <ListadoImagenes 
                       imagenes={imagenes}
                 />

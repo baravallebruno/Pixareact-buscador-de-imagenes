@@ -118,6 +118,7 @@
     .video{ 
         width: 300%;
         right: -50%;
+        top: 0;
        }
 
     .jumbotron {
