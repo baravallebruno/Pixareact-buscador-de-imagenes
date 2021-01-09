@@ -47,7 +47,7 @@
 
 .card-text:hover {
     bottom: 0;
-    opacity: 100%;
+    opacity: 1;
 }
 
 .card-text p {
@@ -238,7 +238,7 @@
 
     .card-text {
         bottom: 0;
-        opacity: 100%;
+        opacity: 1;
     }
 
    .navbar .error {
@@ -253,7 +253,7 @@
 @media (max-width: 940px) { 
     .galeria {
         columns:2;
-        max-width:100%;
+        max-width:1;
     }
 
     .navbar {
@@ -276,7 +276,7 @@
 
     .card-text {
         bottom: 0;
-        opacity: 100%;
+        opacity: 1;
     }
 
     .navbar .form-inline {
@@ -348,7 +348,94 @@
     } 
     .card-text {
         bottom: 0;
-        opacity: 100%;
+        opacity: 1;
+    }
+
+    .navbar .form-inline {
+        margin: 4rem 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .navbar .form-control {
+        padding: 1.4rem !important;
+    }
+
+    .input-group-lg>.form-control:not(textarea) {
+        height: 4rem !important;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar-item {
+        height: 6rem !important;
+    }
+
+    .error {
+        position: absolute;
+        width: 20rem;
+        top: 270px;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+    .navbar .error {
+        position: absolute;
+        width: 100% !important;
+        top: 2.4rem;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .galeria {
+        columns: 1;
+        max-width:100%;
+    }
+
+    .navbar {
+        padding: 1rem;
+        z-index: 1;
+    }
+
+    form .row {
+        margin: 0;
+        display: block;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    .input-group-append {
+        margin-left: 0;
+    }
+
+    .input-group-append .btn {
+        border-top-left-radius: .3rem !important;
+        border-bottom-left-radius: .3rem !important;
+        display: block;
+        width: 100% !important;
+        margin: 1.5rem 4rem;
+        padding: 1rem !important;
+    }
+
+    .input-group .form-control {
+        width: 100%;
+        border-radius: .3rem !important;
+    }
+
+    .galeria {
+        margin: 0 !important;
+        column-gap: 0;
+    } 
+    .card-text {
+        bottom: 0;
+        opacity: 1;
     }
 
     .navbar .form-inline {

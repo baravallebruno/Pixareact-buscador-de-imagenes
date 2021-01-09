@@ -134,3 +134,25 @@
     }
 
 }
+
+@media (max-width: 360px) {
+    .video{ 
+        width: 350%;
+        right: -50%;
+        top:0;
+       }
+
+    .jumbotron {
+        padding: 2rem 1rem;
+    }
+    .container-fluid { 
+        background-color: #f6f5fa;
+    }
+    .contenido__video{
+        height: 530px;
+    }
+    .img-content{
+        top:601px;
+    }
+
+}
