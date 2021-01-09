@@ -117,7 +117,7 @@ function App() {
                         
                         <button 
                         type="button"
-                        className="btn btn-primary btn-lg mr-2"
+                        className="btn btn-primary btn-sm mr-2"
                         onClick={primeraPagina}
                         > <i>{'<<'}</i> </button>
 
@@ -161,7 +161,7 @@ function App() {
                         
                         <button 
                         type="button"
-                        className="btn btn-primary btn-lg ml-2"
+                        className="btn btn-primary btn-sm ml-2"
                         onClick={ultimaPagina}
                         ><i>{'>>'}</i></button>
 
