@@ -130,10 +130,12 @@
 }
 
 .form-control:focus {
-    border: 1px solid #ced4da;
+    border: 1px solid;
     border-right: none;
-    box-shadow: none;
-}
+    border-color: #fad6d5 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.3rem rgba(235, 104, 100, 0.75);
+} 
 
 .btn-search {
     background-color: white;
